@@ -1,0 +1,22 @@
+div{
+    height: 100px;
+    width: 100px;
+    border: 20px solid #4cc9f0;
+    border-left: 20px solid #f72585;
+    
+    border-radius: 50%;
+    animation-name: loader;
+    animation-iteration-count: infinite;
+    animation-duration: 3s;
+    animation-timing-function: ease-in-out;
+    
+}
+
+@keyframes loader{
+    from{
+        transform: rotate(0deg);
+    }
+    to{
+        transform:rotate(360deg);
+    }
+}
